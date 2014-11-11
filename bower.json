@@ -1,0 +1,28 @@
+{
+  "name": "angular-fis-showcase",
+  "version": "0.0.1",
+  "authors": [
+    "TZ <atian25@qq.com>"
+  ],
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.2",
+    "angular-route": "~1.3.2",
+    "ui-router": "~0.2.11"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.3.2"
+  }
+}

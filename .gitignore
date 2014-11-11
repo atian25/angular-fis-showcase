@@ -9,3 +9,4 @@ node_modules/
 ~*
 
 upload.py
+/bower_components

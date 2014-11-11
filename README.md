@@ -4,6 +4,7 @@
 
 > 最近在反复拜读 @fouber 的 [「前端工程系列文章」](https://github.com/fouber/blog)， 发现神器[FIS](http://fis.baidu.com/)，于是希望能借此机会，量身打造一款Angular前端工具。
 
+> 本文参考 [前端开发体系建设日记](https://github.com/fouber/blog/issues/2)
 
 ### Day1: 2014年11月11日 - 手仍在
 
@@ -58,8 +59,6 @@
   - 支持bower模块安装和使用
 
 ### Day2
-
-学习瓶神的[前端开发体系建设日记](https://github.com/fouber/blog/issues/2), 我们也一步步来:
 
 #### 0.开发概念定义
 仿`scrat`的概念：
@@ -138,9 +137,6 @@ release
         - 版本号
     - 项目名
       - 版本号             **非模块化资源都部署到这个目录下**
-  - views
-    - tpl                 **后端模板都构建到这个目录下**
-      - 项目名
-        - 版本号
 ```
 
+#### 3. 设计工具，完成开发目录和部署目录的转换
