@@ -1,10 +1,18 @@
-## 七日之书：量身打造angular开发解决方案(1)
+## 量身打造angular开发解决方案
 
 > 不知不觉，我们团队实践`AngularJS`已经一年多了， 老实说，`AngularJS`很多坑，我们希望能总结出来，对后来人能有所帮助。
 
 > 最近在反复拜读 @fouber 的 [「前端工程系列文章」](https://github.com/fouber/blog)， 发现神器[FIS](http://fis.baidu.com/)，于是希望能借此机会，量身打造一款Angular前端工具。
 
-> 本文参考 [前端开发体系建设日记](https://github.com/fouber/blog/issues/2)
+> 本文假设读者是有前端开发经验的工程师，并对`angular`有一定的实践经验，且阅读过[「前端工程系列文章」](https://github.com/fouber/blog)。
+
+目录：
+
+- 需求调研&&整理 - 我们需要怎么样的一款工具？
+- 开发规范和部署规范
+- 模块化框架
+- 辅助命令
+- 总结
 
 ### Day1: 2014年11月11日 - 手仍在
 

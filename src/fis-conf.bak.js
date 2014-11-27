@@ -1,5 +1,5 @@
 //项目配置，将name、version独立配置，统管全局
-var meta = require('./package.json');
+var meta = require('./../package.json');
 fis.config.set('name', meta.name);
 fis.config.set('version', meta.version);
 
