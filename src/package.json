@@ -2,6 +2,7 @@
   "name": "angular-fis-showcase",
   "version": "0.0.1",
   "main": "server/index.js",
+  "description": "",
   "dependencies": {
     "compression": "^1.2.0",
     "errorhandler": "^1.2.1",
@@ -13,6 +14,10 @@
   },
   "scripts": {
     "test": "node ./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:atian25/angular-fis-showcase.git"
   },
   "engines": {
     "node": ">=0.10.0"
