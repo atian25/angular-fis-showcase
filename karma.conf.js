@@ -18,7 +18,10 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       //监控源码
-      {pattern: 'src/**/*.*', included: false, served: false, watched: true}
+      {pattern: 'src/**/*.*', included: false, served: false, watched: true},
+      //'dist/public/scrat.js',
+      //'dist/public/**/*.js',
+      //'dist/public/test/test-main.js'
     ],
 
 
@@ -27,6 +30,14 @@ module.exports = function(config) {
       
     ],
 
+    fis: {
+      //cmd: 'larva karma -r ./src -cd ./dist',
+      files: [
+        'dist/public/scrat.js',
+        'dist/public/**/*.js',
+        'dist/public/test/test-main.js'
+      ]
+    },
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocess or
@@ -38,20 +49,9 @@ module.exports = function(config) {
       'karma-chrome-launcher',
       'karma-phantomjs-launcher',
       'larva-cli'
-      //require('./test/karma-fis.js')
     ],
 
     client: {
-    },
-
-
-    fis: {
-      //cmd: 'larva karma -r ./src -cd ./dist',
-      files: [
-        'dist/public/scrat.js',
-        'dist/public/**/*.js',
-        'dist/public/test/test-main.js'
-      ]
     },
 
     // test results reporter to use

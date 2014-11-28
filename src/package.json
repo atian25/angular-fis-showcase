@@ -1,0 +1,20 @@
+{
+  "name": "angular-fis-showcase",
+  "version": "0.0.1",
+  "main": "server/index.js",
+  "dependencies": {
+    "compression": "^1.2.0",
+    "errorhandler": "^1.2.1",
+    "express": "^4.10.2",
+    "http-proxy": "^1.6.1"
+  },
+  "devDependencies": {
+    "connect-inject": "^0.3.2"
+  },
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

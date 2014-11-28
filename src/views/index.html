@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="css/web.css">
+  <title>angular-fis-showcase</title>
+</head>
+<body>
+<div id="view"></div>
+
+<script src="lib/scrat/scrat.js"></script>
+<script>
+  require.config(__FRAMEWORK_CONFIG__);
+  require.async(['app', 'modules/menu'], function (app, module) {
+    document.body.setAttribute('ng-controller', module.name + ' as vm');
+    document.getElementById("view").innerHTML = module.template;
+    angular.bootstrap(document, [app.name]);
+  });
+</script>
+</body>
+</html>
+

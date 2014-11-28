@@ -1,0 +1,7 @@
+.menu{
+  border: dashed 1px;
+  padding: 10px;
+}
+.menu div{
+  color: red;
+}
