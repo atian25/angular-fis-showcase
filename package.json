@@ -12,6 +12,8 @@
     "larva-cli": "^0.1.4"
   },
   "scripts": {
+    "start": "cd src && node ../node_modules/larva-cli/bin/larva server start",
+    "release": "cd src && node ../node_modules/larva-cli/bin/larva release -wL",
     "test": "node ./node_modules/karma/bin/karma start",
     "postinstall": "cd src && node ../node_modules/larva-cli/bin/larva install"
   },
